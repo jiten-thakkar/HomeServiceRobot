@@ -1,5 +1,18 @@
 # Home_Service_Robot 
 
+This repository has submodules to use following command to clone it with submodules.
+
+```
+git clone --recurse-submodules https://github.com/jiten-thakkar/HomeServiceRobot.git
+```
+Update amcl launch file as follows to make sure that everything works perfectly.
+
+In catkin_ws/src/turtlebot_simulator/turtlebot_gazebo/launch/amcl_demo.launch file, set the initial orientation of the robot to -1.57 as follows:
+
+```
+<arg name="initial_pose_a" default="-1.57"/>
+```
+
 To build
 ```
 cd catkin_ws
