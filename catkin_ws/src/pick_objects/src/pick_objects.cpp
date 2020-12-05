@@ -37,10 +37,9 @@ int main(int argc, char** argv){
 
   // Check if the robot reached its goal
   if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
-    ROS_INFO("Hooray, the base moved 1 meter forward");
+    ROS_INFO("Hooray, reached desired pickup goal");
   else
-    ROS_INFO("The base failed to move forward 1 meter for some reason");
-
+    ROS_INFO("The base failed to move to pick up goal for some reason");
   ros::Duration(5.0).sleep();
 
   move_base_msgs::MoveBaseGoal second_goal;
@@ -52,7 +51,7 @@ int main(int argc, char** argv){
   // Define a position and orientation for the robot to reach
   second_goal.target_pose.pose.position.x = -3.0;
   second_goal.target_pose.pose.position.y = -4.0;
-  second_goal.target_pose.pose.orientation.w =1.57;
+  second_goal.target_pose.pose.orientation.w = 1.57;
 
   // Send the goal position and orientation for the robot to reach
   ROS_INFO("Sending drop off goal");
