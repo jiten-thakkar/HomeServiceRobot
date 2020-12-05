@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/main.cpp
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/main.cpp
 ros/ros.h
 -
 slam_gmapping.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.h
 
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.cpp
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.cpp
 slam_gmapping.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.h
 iostream
 -
 time.h
 -
 ros/ros.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/ros/ros.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/ros/ros.h
 ros/console.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/ros/console.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/ros/console.h
 nav_msgs/MapMetaData.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/nav_msgs/MapMetaData.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/nav_msgs/MapMetaData.h
 gmapping/sensor/sensor_range/rangesensor.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/gmapping/sensor/sensor_range/rangesensor.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/gmapping/sensor/sensor_range/rangesensor.h
 gmapping/sensor/sensor_odometry/odometrysensor.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/gmapping/sensor/sensor_odometry/odometrysensor.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/gmapping/sensor/sensor_odometry/odometrysensor.h
 rosbag/bag.h
 -
 rosbag/view.h
@@ -36,27 +36,27 @@ rosbag/view.h
 boost/foreach.hpp
 -
 
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.h
 ros/ros.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/ros/ros.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/ros/ros.h
 sensor_msgs/LaserScan.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/sensor_msgs/LaserScan.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/sensor_msgs/LaserScan.h
 std_msgs/Float64.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/std_msgs/Float64.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/std_msgs/Float64.h
 nav_msgs/GetMap.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/nav_msgs/GetMap.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/nav_msgs/GetMap.h
 tf/transform_listener.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/tf/transform_listener.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/tf/transform_listener.h
 tf/transform_broadcaster.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/tf/transform_broadcaster.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/tf/transform_broadcaster.h
 message_filters/subscriber.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/message_filters/subscriber.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/message_filters/subscriber.h
 tf/message_filter.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/tf/message_filter.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/tf/message_filter.h
 gmapping/gridfastslam/gridslamprocessor.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/gmapping/gridfastslam/gridslamprocessor.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/gmapping/gridfastslam/gridslamprocessor.h
 gmapping/sensor/sensor_base/sensor.h
-/home/workspace/homeservicerobot/catkin_ws/src/slam_gmapping/gmapping/src/gmapping/sensor/sensor_base/sensor.h
+/home/workspace/HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/gmapping/sensor/sensor_base/sensor.h
 boost/thread.hpp
 -
 

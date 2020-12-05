@@ -1,8 +1,8 @@
-# Install script for directory: /home/workspace/homeservicerobot/catkin_ws/src/turtlebot_interactions/turtlebot_interactions
+# Install script for directory: /home/workspace/HomeServiceRobot/catkin_ws/src/turtlebot_interactions/turtlebot_interactions
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/workspace/homeservicerobot/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/workspace/HomeServiceRobot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,12 +32,7 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_interactions" TYPE FILE FILES "/home/workspace/homeservicerobot/catkin_ws/src/turtlebot_interactions/turtlebot_interactions/package.xml")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_interactions" TYPE FILE FILES "/home/workspace/HomeServiceRobot/catkin_ws/src/turtlebot_interactions/turtlebot_interactions/package.xml")
 endif()
 

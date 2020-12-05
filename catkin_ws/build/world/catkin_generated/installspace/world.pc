@@ -1,4 +1,4 @@
-prefix=/home/workspace/homeservicerobot/catkin_ws/install
+prefix=/home/workspace/HomeServiceRobot/catkin_ws/install
 
 Name: world
 Description: Description of world

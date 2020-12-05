@@ -1,8 +1,8 @@
-# Install script for directory: /home/workspace/homeservicerobot/catkin_ws/src/turtlebot_interactions/turtlebot_dashboard
+# Install script for directory: /home/workspace/HomeServiceRobot/catkin_ws/src/turtlebot_interactions/turtlebot_dashboard
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/workspace/homeservicerobot/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/workspace/HomeServiceRobot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,27 +32,22 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/workspace/HomeServiceRobot/catkin_ws/build/turtlebot_interactions/turtlebot_dashboard/catkin_generated/installspace/turtlebot_dashboard.pc")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/workspace/homeservicerobot/catkin_ws/build/turtlebot_interactions/turtlebot_dashboard/catkin_generated/installspace/turtlebot_dashboard.pc")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_dashboard/cmake" TYPE FILE FILES
-    "/home/workspace/homeservicerobot/catkin_ws/build/turtlebot_interactions/turtlebot_dashboard/catkin_generated/installspace/turtlebot_dashboardConfig.cmake"
-    "/home/workspace/homeservicerobot/catkin_ws/build/turtlebot_interactions/turtlebot_dashboard/catkin_generated/installspace/turtlebot_dashboardConfig-version.cmake"
+    "/home/workspace/HomeServiceRobot/catkin_ws/build/turtlebot_interactions/turtlebot_dashboard/catkin_generated/installspace/turtlebot_dashboardConfig.cmake"
+    "/home/workspace/HomeServiceRobot/catkin_ws/build/turtlebot_interactions/turtlebot_dashboard/catkin_generated/installspace/turtlebot_dashboardConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_dashboard" TYPE FILE FILES "/home/workspace/homeservicerobot/catkin_ws/src/turtlebot_interactions/turtlebot_dashboard/package.xml")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_dashboard" TYPE FILE FILES "/home/workspace/HomeServiceRobot/catkin_ws/src/turtlebot_interactions/turtlebot_dashboard/package.xml")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_dashboard" TYPE DIRECTORY FILES "/home/workspace/homeservicerobot/catkin_ws/src/turtlebot_interactions/turtlebot_dashboard/launch")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_dashboard" TYPE DIRECTORY FILES "/home/workspace/HomeServiceRobot/catkin_ws/src/turtlebot_interactions/turtlebot_dashboard/launch")
 endif()
 

@@ -5,16 +5,16 @@
 # it emulates the modifications of the setup script without recurring computations
 
 # new environment variables
-export TURTLEBOT_GAZEBO_MAP_FILE="/home/workspace/homeservicerobot/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo/maps/playground.yaml"
-export TURTLEBOT_GAZEBO_WORLD_FILE="/home/workspace/homeservicerobot/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo/worlds/playground.world"
-export TURTLEBOT_STAGE_MAP_FILE="/home/workspace/homeservicerobot/catkin_ws/src/turtlebot_simulator/turtlebot_stage/maps/maze.yaml"
-export TURTLEBOT_STAGE_WORLD_FILE="/home/workspace/homeservicerobot/catkin_ws/src/turtlebot_simulator/turtlebot_stage/maps/stage/maze.world"
-export TURTLEBOT_STDR_MAP_FILE="/home/workspace/homeservicerobot/catkin_ws/src/turtlebot_simulator/turtlebot_stdr/maps/sparse_obstacles.yaml"
+export TURTLEBOT_GAZEBO_MAP_FILE="/home/workspace/HomeServiceRobot/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo/maps/playground.yaml"
+export TURTLEBOT_GAZEBO_WORLD_FILE="/home/workspace/HomeServiceRobot/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo/worlds/playground.world"
+export TURTLEBOT_STAGE_MAP_FILE="/home/workspace/HomeServiceRobot/catkin_ws/src/turtlebot_simulator/turtlebot_stage/maps/maze.yaml"
+export TURTLEBOT_STAGE_WORLD_FILE="/home/workspace/HomeServiceRobot/catkin_ws/src/turtlebot_simulator/turtlebot_stage/maps/stage/maze.world"
+export TURTLEBOT_STDR_MAP_FILE="/home/workspace/HomeServiceRobot/catkin_ws/src/turtlebot_simulator/turtlebot_stdr/maps/sparse_obstacles.yaml"
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/workspace/homeservicerobot/catkin_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/workspace/homeservicerobot/catkin_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/workspace/homeservicerobot/catkin_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/workspace/homeservicerobot/catkin_ws/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/workspace/homeservicerobot/catkin_ws/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/workspace/homeservicerobot/catkin_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/workspace/HomeServiceRobot/catkin_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/workspace/HomeServiceRobot/catkin_ws/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/workspace/HomeServiceRobot/catkin_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/workspace/HomeServiceRobot/catkin_ws/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/workspace/HomeServiceRobot/catkin_ws/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/workspace/homeservicerobot/catkin_ws/src:/home/workspace/HomeServiceRobot/catkin_ws/src:$ROS_PACKAGE_PATH"

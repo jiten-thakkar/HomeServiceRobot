@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.o"
-  "/home/workspace/homeservicerobot/catkin_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf.pdb"
-  "/home/workspace/homeservicerobot/catkin_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf"
+  "/home/workspace/HomeServiceRobot/catkin_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf.pdb"
+  "/home/workspace/HomeServiceRobot/catkin_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf"
 )
 
 # Per-language clean rules from dependency scanning.

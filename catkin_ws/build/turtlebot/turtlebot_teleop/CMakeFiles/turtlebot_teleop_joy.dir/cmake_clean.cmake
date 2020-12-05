@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.o"
-  "/home/workspace/homeservicerobot/catkin_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy.pdb"
-  "/home/workspace/homeservicerobot/catkin_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy"
+  "/home/workspace/HomeServiceRobot/catkin_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy.pdb"
+  "/home/workspace/HomeServiceRobot/catkin_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy"
 )
 
 # Per-language clean rules from dependency scanning.

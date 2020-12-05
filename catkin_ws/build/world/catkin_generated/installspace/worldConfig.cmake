@@ -67,14 +67,14 @@ set(world_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(world_SOURCE_PREFIX /home/workspace/homeservicerobot/catkin_ws/src/world)
-  set(world_DEVEL_PREFIX /home/workspace/homeservicerobot/catkin_ws/devel)
+  set(world_SOURCE_PREFIX /home/workspace/HomeServiceRobot/catkin_ws/src/world)
+  set(world_DEVEL_PREFIX /home/workspace/HomeServiceRobot/catkin_ws/devel)
   set(world_INSTALL_PREFIX "")
   set(world_PREFIX ${world_DEVEL_PREFIX})
 else()
   set(world_SOURCE_PREFIX "")
   set(world_DEVEL_PREFIX "")
-  set(world_INSTALL_PREFIX /home/workspace/homeservicerobot/catkin_ws/install)
+  set(world_INSTALL_PREFIX /home/workspace/HomeServiceRobot/catkin_ws/install)
   set(world_PREFIX ${world_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/workspace/homeservicerobot/catkin_ws/install/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/workspace/HomeServiceRobot/catkin_ws/install/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

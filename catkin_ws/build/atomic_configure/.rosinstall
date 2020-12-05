@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/workspace/homeservicerobot/catkin_ws/devel/setup.sh
+    local-name: /home/workspace/HomeServiceRobot/catkin_ws/devel/setup.sh

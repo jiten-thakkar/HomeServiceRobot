@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/workspace/homeservicerobot/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers/src/turtlebot_marker_server.cpp
+/home/workspace/HomeServiceRobot/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers/src/turtlebot_marker_server.cpp
 ros/ros.h
 -
 interactive_markers/interactive_marker_server.h
